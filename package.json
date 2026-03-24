@@ -1,0 +1,26 @@
+{
+  "name": "@ydmnypg/data",
+  "version": "0.4.1",
+  "description": "Database DAO layer for MySQL and PostgreSQL",
+  "main": "index.js",
+  "type": "module",
+  "author": "eden.kang <pgkang@studioys.kr>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whalec-io/ydmnypg-data.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.4.3",
+    "mybatis-mapper": "^0.5.3",
+    "mysql2": "^3.14.0",
+    "pg": "^8.14.1",
+    "uuid": "^13.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
