@@ -1,9 +1,14 @@
 {
   "name": "@ydmnypg/data",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "description": "Database DAO layer for MySQL and PostgreSQL",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
   "author": "eden.kang <pgkang@studioys.kr>",
   "repository": {
     "type": "git",
